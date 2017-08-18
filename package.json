@@ -1,0 +1,22 @@
+{
+  "name": "prototype-ld",
+  "version": "0.0.1-dev",
+  "description": "Attach javascript class (prototypes) on LinkedData subjects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacquarg/prototype-ld.git"
+  },
+  "keywords": [
+    "json-ld"
+  ],
+  "author": "jacquarg",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jacquarg/prototype-ld/issues"
+  },
+  "homepage": "https://github.com/jacquarg/prototype-ld#readme"
+}
