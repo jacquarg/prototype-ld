@@ -18,11 +18,11 @@ PLD.getItem = (item) => {
   let type = attrs['@type']
   if (type instanceof Array) {
     for (type of attrs['@type']) {
-      if (mapClassOnType[type]) break
+      if (PLD.mapClassOnType[type]) break
     }
   }
 
-  if (mapClassOnType[type]) { return new mapClassOnType[type](attrs) }
+  if (PLD.mapClassOnType[type]) { return new PLD.mapClassOnType[type](attrs) }
 
   return attrs
 }
