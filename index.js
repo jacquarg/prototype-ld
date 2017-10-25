@@ -15,6 +15,8 @@ PLD.getItem = (item) => {
     attrs = PLD.allItems[item['@id']]
   }
 
+  if (!attrs) { console.warn(`item ${ item } is missing`) }
+  
   let type = attrs['@type']
   if (type instanceof Array) {
     for (type of attrs['@type']) {
